@@ -1,0 +1,41 @@
+body {
+    background-color:dimgrey; 
+}
+footer {
+background-color:black;
+   color:white;
+   position:absolute;
+   padding:5px;
+   text-align:center;
+   left: 50%;
+   transform:translateX(-50%);
+   bottom:0;
+}
+#heading{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif
+}
+#mainArea{
+    text-align: center;
+    margin-top: 150px;
+}
+/* #inputTextAreaId{
+    font-size:x-large;
+} */
+#encodeInputId{
+    font-size:x-large;
+    margin-top: 50px;
+    background-color: green;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+}
+#outputDivId{
+    text-align: center; 
+    margin-top: 50px;
+}
+.ioText{
+    text-align: center;
+    font-size:x-large;
+    border-radius: 5px;
+    border-style: solid;
+}

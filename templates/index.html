@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{.title}}</title>
+    <style type="text/css" media="screen">
+        <!-- 
+            @import url("/css/index.css");
+        --> 
+    </style>
+</head>
+<body>
+    <div id="mainArea">
+        <h1 id="heading">BASE64 ENCODER</h1>
+        <br/>
+        <div>
+            <form name="inputForm" id="inputFormId" method="post" >
+                <textarea type="inputText" class="ioText" name="inputTextArea" id="inputTextAreaId" value="{{.value}}" placeholder="{{.placeHolder}}"></textarea>
+                <br>
+                <input type="submit" id="encodeInputId" name="submitButton" value="Encode"/>
+            </form>
+        </div>
+        <div id="outputDivId">
+            <h2>RESULT</h2>
+            <br>
+            <div>
+                <textarea class="ioText">{{.output}}</textarea>
+            </div>
+        </div>
+    </div>
+    <footer>
+        {{.year}} Copyright ©Arbaaz
+    </footer>
+</body>
+</html>
