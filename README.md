@@ -7,3 +7,7 @@ Webpage to encode text into base64 format.<br><br>
   <li>HTML</li>
   <li>CSS</li>
 </ul>
+<h2>Screenshots:</h2>
+![picture](static/images/homepage.png)
+<br>
+![picture](static/images/encoderpage.png)
